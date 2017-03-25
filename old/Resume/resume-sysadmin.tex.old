@@ -1,0 +1,127 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Gregory S Morin
+%  Based on a template by Kamil K Wojcicki
+\documentclass[margin,line]{resume}
+
+
+%______________________________________________________________________________________________________________________
+\begin{document}
+\name{\Large Gregory S Morin}
+\begin{resume}
+
+    %__________________________________________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information}
+
+    9 1/2 Donlon Street                          \hfill mobile: 1 413 522 4374   \vspace{0mm}\\\vspace{0mm}%
+    Rochester, New York 14607                    \hfill e-mail: gregory.scott.morin@gmail.com  \vspace{0mm}\\\vspace{0mm}%
+                                                 \hfill         gsm5953@cs.rit.edu  \vspace{0mm}\\\vspace{-4.5mm}%
+                                                 \hfill website: http://www.cs.rit.edu/$\sim$gsm5953   \vspace{0mm}\\\vspace{-4.5mm}%
+
+    %__________________________________________________________________________________________________________________
+    % Objective
+    \section{\mysidestyle Objective} 
+%    To obtain a full time computer programming position in the field of artificial intelligence. 
+    To obtain a full time systems administration position. 
+
+
+    %__________________________________________________________________________________________________________________
+    % Research Interests
+    \section{\mysidestyle Research\\Interests}
+
+    Artificial Intelligence, Machine Learning, Multi-agent Systems, Game Theory, Neural Networks, Genetic Algorithms
+
+
+    %__________________________________________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    \textbf{Rochester Institute of Technology}, Rochester, New York \vspace{1mm}\\\vspace{1mm}%
+    \textsl{Computer Science BS/MS} \hfill \textbf{ September 2005 -- present}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+      \item GPA: 3.33
+      \item Expected graduation date: May 2013
+      \item Cluster: Intelligent Systems
+      \item Thesis/Project: Co-evolutionary Generation of Sorting Networks 
+    \end{list2}\vspace{-1.5mm}
+    \textbf{Springfield Technical Community College}, Springfield, Massachusetts \vspace{1mm}\\\vspace{1mm}%
+    \textsl{Computer Science AS} \hfill \textbf{ September 2003 -- May 2005}\vspace{-3mm}\\\vspace{-1mm}%
+    \begin{list2}
+      \item GPA: 3.67
+      \item Awards: Dean's List (4 Semesters)
+    \end{list2}\vspace{-1.5mm}
+
+
+    %__________________________________________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle Professional\\Experience}
+
+    \textbf{Advanced Micro Devices}, Austin, Texas \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Compute-Grid Co-op Engineer} \hfill \textbf{June 2010 -- December 2010}\\\vspace{0.5mm}%
+    Systems Administrator co-op for a medium size engineering site. Responsibilities included day to day
+    support of Platform LSF cluster, script writing to automate cluster upkeep, assisting with the bring up
+    of new machines in the LSF cluster.  Projects included statistics gathering, storage, and analysis on
+    the performance of the LSF cluster, cluster file standardization via creation of a standard grammar.
+
+    \textbf{Rochester Institute of Technology}, Rochester, New York \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Graduate Assistant} \hfill \textbf{December 2008 -- November 2009}\\
+    Graduate assistant for the Systems Administration Office in the Computer
+    Science Department. Responsibilities include helping students with account
+    problems, installing software for classes and research projects, upkeep
+    of Solaris, Windows, and Macintosh labs, and debugging server problems.
+
+    \textbf{Advanced Micro Devices}, Boxborough, Massachusetts \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Site Services Co-op Engineer} \hfill \textbf{June 2008 -- November 2008}\\\vspace{0.5mm}%
+    \textsl{Site Services Co-op Engineer} \hfill \textbf{June 2007 -- November 2007}\\\vspace{0.5mm}%
+    \textsl{Site Services Co-op Engineer} \hfill \textbf{August 2006 -- March 2007}\\\vspace{0.5mm}%
+    Systems Administrator co-op for a medium size engineering site. Responsibilities included day to day 
+    support for desktops and servers, script writing to reduce hands-on workload, server failure diagnosis,
+    hardware replacements, operating system installations, monitoring of network and data stability. 
+
+
+    %__________________________________________________________________________________________________________________
+    % Relevant Courses
+    \section{\mysidestyle Relevant Courses} 
+%    Introduction to Artificial Intelligence, Neural Networks and Machine Learning, Mobile Robot Programming,
+    Intelligent Security Systems, Genetic Algorithms, Foundations in Computing Theory, Theory of Computer Algorithms,
+    Computational Complexity, Secure Coding
+
+
+    %__________________________________________________________________________________________________________________
+    % Projects
+%    \section{\mysidestyle Projects} 
+%    \textbf{Academic} \textsl{Fall 2009:}\\
+%    \begin{list2}
+%      \item Secure coding review of the Pidgin codebase\\
+%        A class project analyzing the source code for various security holes/flaws for the class Secure Coding.
+%      \item Esoteric code generation using a genetic algorithm\\
+%        A class project for generating source code to print out a desired string using a genetic algorithm to generate and alter code. 
+%    \end{list2}\vspace{-1.5mm}
+
+
+    %__________________________________________________________________________________________________________________
+    % Computer Skills
+    \section{\mysidestyle Skills} 
+
+    \textbf{Proficient programming skills:} 
+    Perl, Java, C, C++, Linux shell scripting, \LaTeX, OOP, AOP, Operating System concepts, Artifial Intelligence concepts\\
+    \textbf{Familar programming skills:} 
+    x86 Assembler, Cobol, Visual Basic 6, AspectJ, Computer Architecture\\
+    \textbf{Familiar operating systems:}
+    Gentoo GNU/Linux, Ubuntu GNU/Linux, Sun Solaris 9/10, Microsoft Windows XP\\ 
+    \textbf{Foreign Languages:}
+    Japanese %(studying for JLPT level 3/2 equivalency)
+
+
+    %__________________________________________________________________________________________________________________
+    % Computer Skills
+    \section{\mysidestyle Interests} 
+    Mountain biking, Reading, Board Games, Car Repair
+
+\end{resume}
+\end{document}
+
+
+%______________________________________________________________________________________________________________________
+% EOF
+

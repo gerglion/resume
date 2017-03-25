@@ -1,0 +1,89 @@
+Gregory S Morin
+Contact
+Information
+
+9 1/2 Donlon Street
+Rochester, New York 14607
+
+Objective
+
+To obtain a full time systems administration position.
+
+Research
+Interests
+
+Artiﬁcial Intelligence, Machine Learning, Multi-agent Systems, Game Theory, Neural Networks, Genetic Algorithms
+
+Education
+
+Rochester Institute of Technology, Rochester, New York
+Computer Science BS/MS
+•
+•
+•
+•
+
+mobile: 1 413 522 4374
+e-mail: gregory.scott.morin@gmail.com
+gsm5953@cs.rit.edu
+website: http://www.cs.rit.edu/∼gsm5953
+
+September 2005 – present
+
+GPA: 3.33
+Expected graduation date: December 2012
+Cluster: Intelligent Systems
+Thesis/Project: Sort Algorithm Generation Using Co-evolutionary Genetic Algorithms
+
+Springﬁeld Technical Community College, Springﬁeld, Massachusetts
+Computer Science AS
+September 2003 – May 2005
+• GPA: 3.67
+• Awards: Dean’s List (4 Semesters)
+Professional
+Experience
+
+Advanced Micro Devices, Austin, Texas
+Compute-Grid Co-op Engineer
+June 2010 – December 2010
+Systems Administrator co-op for a medium size engineering site. Responsibilities included day to
+day support of Platform LSF cluster, script writing to automate cluster upkeep, assisting with the
+bring up of new machines in the LSF cluster. Projects included statistics gathering, storage, and
+analysis on the performance of the LSF cluster, cluster ﬁle standardization via creation of a standard
+grammar.
+Rochester Institute of Technology, Rochester, New York
+Graduate Assistant
+December 2008 – November 2009
+Graduate assistant for the Systems Administration Oﬃce in the Computer Science Department.
+Responsibilities include helping students with account problems, installing software for classes and
+research projects, upkeep of Solaris, Windows, and Macintosh labs, and debugging server problems.
+Advanced Micro Devices, Boxborough, Massachusetts
+Site Services Co-op Engineer
+June 2008 – November 2008
+Site Services Co-op Engineer
+June 2007 – November 2007
+Site Services Co-op Engineer
+August 2006 – March 2007
+Systems Administrator co-op for a medium size engineering site. Responsibilities included day to day
+support for desktops and servers, script writing to reduce hands-on workload, server failure diagnosis,
+hardware replacements, operating system installations, monitoring of network and data stability.
+
+Relevant
+Courses
+
+Intelligent Security Systems, Genetic Algorithms, Foundations in Computing Theory, Theory of Computer Algorithms, Computational Complexity, Secure Coding
+
+Skills
+
+A
+Proﬁcient programming skills: Perl, Java, C, C++, Linux shell scripting, L TEX, OOP, AOP,
+Operating System concepts, Artiﬁal Intelligence concepts
+Familar programming skills: x86 Assembler, Cobol, Visual Basic 6, AspectJ, Computer Architecture
+Familiar operating systems: Gentoo GNU/Linux, Ubuntu GNU/Linux, Sun Solaris 9/10, Microsoft Windows XP
+Foreign Languages: Japanese
+
+Interests
+
+Mountain biking, Reading, Board Games, Car Repair
+
+
