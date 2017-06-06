@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.4.1)  1 APR 2017 16:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.4.1)  5 JUN 2017 19:07
 entering extended mode
 **resume_cover.tex
 (C:\Users\gmorin\Documents\GitHub\resume\latex\classes\cv_7\resume_cover.tex
@@ -599,11 +599,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  12211 strings out of 493921
  179005 string characters out of 3147280
- 384941 words of memory out of 3000000
+ 384803 words of memory out of 3000000
  15310 multiletter control sequences out of 15000+200000
  54317 words of font info for 54 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,13n,67p,778b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,12n,67p,778b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
@@ -613,7 +613,7 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on resume_cover.pdf (3 pages, 187879 bytes).
+Output written on resume_cover.pdf (3 pages, 187731 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
