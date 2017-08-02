@@ -24,17 +24,20 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 %\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[inline]{enumitem}
+\usepackage{soul}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -54,7 +57,7 @@
 %\extrainfo{additional information}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 %\quote{"There are 10 types of people in the world: those who understand binary, those who don't, and those that don't realize this is a joke about ternary"}
-\quote{"Have you tried turning it off and on again?"}
+%\quote{"Have you tried turning it off and on again?"}
 
 %----------------------------------------------------------------------------------------
 
@@ -89,21 +92,45 @@
 
 \makecvtitle % Print the CV title
 
+
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
+%	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
+%\section{Computer skills}
+\section{Skills}
+%\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
+%\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
+%\cvitem{Advanced}{Computer Hardware and Support}
+\cvitem{Skills}{
+	\begin{itemize*}
+		\item Linux Systems Administration
+		\item Microsoft Active Directory
+		\item Request Tracker
+		\item FOG Imaging
+	\end{itemize*}}
+\cvitem{Operating Systems}{\textsc{Linux}:
+	\begin{itemize*}
+		\item Gentoo
+		\item CentOS/RHEL
+		\item Debain/Ubuntu
+	\end{itemize*}
+	\newline\textsc{Microsoft Windows}:
+	\begin{itemize*}
+		\item XP
+		\item 7
+		\item Server 2008R2
+		\item Server 2012
+	\end{itemize*}}
+\cvitem{Programming Languages}{
+	\begin{itemize*}
+		\item Perl
+		\item \textsc{java}
+		\item \textsc{python}
+		\item \LaTeXe
+		\item BaSH
+		\item JavaScript
+	\end{itemize*}}
 
-\section{Education}
-
-\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rocehster,NY}{aaa}{bbb}  % Arguments not required can be left empty
-%\cventry{2005--2008}{Bachelor of Computer Science}{Rochester Institute of Technology}{Rochester,NY}{}{}
-\cventry{2003--2005}{Associates of Computer Science}{Springfield Technical Community College}{Springfield,MA}{aaa}{bbb}
-
-%\section{Masters Thesis}
-
-%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
-%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
-%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -111,45 +138,60 @@
 
 \section{Experience}
 
-\subsection{Vocational}
+%\subsection{Vocational}
 %\cventry{from--to}{degree or job title}{institution or employer}{city}{grade}{description}
-\cventry{2013--Present}{Helpdesk Support Technician}{\textsc{RCMCS}}{Rochester,NY}{}{}
-\cventry{2012--2013}{Helpdesk Intern}{\textsc{Rochester Career Mentoring Charter School}}{Rochester,NY}{}{description}
-\cventry{2010--2010}{Compute-Grid Co-op Engineer}{\textsc{Advanced Micro Devices}}{Austin,TX}{}{description}
-\cventry{2008--2009}{Graduate Assistant}{\textsc{RIT},Computer Science Department}{Rochester,NY}{}{description}
-\cventry{2006--2008, *3}{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{description}
-%\cventry{2007--2007}{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{}
-%\cventry{2006--2007}{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{description}
 
-%\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
-%\newline{}\newline{}
-%Detailed achievements:
+% RCMCS Helpdesk Support
+\cventry{July 2013 -- June 2017, October 2012 -- June 2013}{Helpdesk Support Technician, Helpdesk Intern}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
+\begin{itemize}
+	\item \hl{Provided daily software and hardware support to 50 staff and 250 high school students}
+	\item \hl{Successfully installed Best Practical's Request Tracker web-based ticketing system for tracking and organizing trouble tickets and maintained for 4 years}
+	\item \hl{Maintained FOG (Free Open Ghost) server for automating computer installs and cut down imaging time per machine from >90 minutes to <15 minutes}
+\end{itemize}}
+% RCMCS Intern
+%\cventry{October 2012 -- June 2013}{Helpdesk Intern}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
 %\begin{itemize}
-%\item Learned how to make amazing coffee
-%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
-%\begin{itemize}
-%\item Paper jam
-%\item Software issues:
-%\begin{itemize}
-%\item Word not sending the correct data to printer
-%\item Windows trying to print in letter format
-%\end{itemize}
-%\item Coffee spilled inside printer
-%\end{itemize}
-%\item Broke the office record for number of kitten pictures in cubicle
+%		\item \textsc{desc goes here}
 %\end{itemize}}
 
-%------------------------------------------------
+% AMD Austin
+\cventry{June 2010 -- December 2010}{Compute-Grid Co-op Engineer}{\textsc{Advanced Micro Devices}}{Austin,TX}{}{
+	\begin{itemize}
+		\item \hl{Wrote script to gather server cluster statistics and analyze data for cluster health and efficiency. This was used to identify configuration problems and bottlenecks}
+		\item \hl{two}
+		\item \hl{three}
+\end{itemize}}
 
-%\cventry{2011--2012}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+% RIT CS Dept.
+\cventry{December 2008 -- November 2009}{Graduate Assistant}{\textsc{RIT},Computer Science Department}{Rochester,NY}{}{
+	\begin{itemize}
+		\item \hl{one}
+		\item \hl{two}
+		\item \hl{three}
+\end{itemize}}
 
-%------------------------------------------------
+% AMD Boxborough
+\cventry{2006--2007,2007--2007,2008--2008 }{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{
+	\begin{itemize}
+		\item \hl{Part of 8 person team that provided daily dekstop and server support for \textasciitilde 300 person engineering site}
+		\item \hl{Planned and implemented computer monitor RMA process to facilitate expedient monitor replacement}
+		\item \hl{Worked weekly to keep cluster uptime >90\%}
+\end{itemize}}
+%\cventry{June 2008 -- December 2008}{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{}
+%\cventry{2007--2007}{Site-Services Co-op Engineer}{}{}{}{}
+%\cventry{2006--2007}{Site-Services Co-op Engineer}{}{}{}{description}
 
-%\subsection{Miscellaneous}
 
-%\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-%\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+\section{Education}
+
+\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rocehster,NY}{Computer Science, BS/MS Dual Degree Program}{}  % Arguments not required can be left empty
+%\cventry{2005--2008}{Bachelor of Computer Science}{Rochester Institute of Technology}{Rochester,NY}{}{}
+\cventry{2003--2005}{A.S.}{Springfield Technical Community College}{Springfield,MA}{Engineering and Science Transfer}{}
+
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
@@ -160,15 +202,6 @@
 %\cvitem{2011}{School of Business Postgraduate Scholarship}
 %\cvitem{2010}{Top Achiever Award -- Commerce}
 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer skills}
-
-\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
-\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
-\cvitem{Advanced}{Computer Hardware and Support}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
@@ -193,13 +226,13 @@
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+%\section{Interests}
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
 
 %----------------------------------------------------------------------------------------
 
