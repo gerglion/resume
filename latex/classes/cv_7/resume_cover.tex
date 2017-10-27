@@ -28,7 +28,7 @@
 
 %\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -36,23 +36,27 @@
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
-\usepackage[inline]{enumitem}
+%\usepackage[inline]{enumitem}
 \usepackage{soul}
+
+\usepackage{epigraph}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Gregory} % Your first name
+\firstname{Gregory Scott} % Your first name
 \familyname{Morin} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
-\address{199 S. Plymouth Avenue, \#6}{Rochester, NY 14608}
+\title{resume}
+%\address{199 S. Plymouth Avenue, \#6}{Rochester, NY 14608}
 \mobile{(413) 522 4374}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
 \email{gregory.scott.morin@gmail.com}
+%\homepage{github.com/gerglion}{github.com/gerglion}
+\homepage{linkedin.com/in/gregoryscottmorin}{linkedin.com/in/gregoryscottmorin}
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 %\extrainfo{additional information}
 %\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
@@ -75,7 +79,7 @@
 \date{\today} % Letter date
 \opening{Dear Sir or Madam,} % Opening greeting
 \closing{Sincerely yours,} % Closing phrase
-\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
 
 \makelettertitle % Print letter title
 
@@ -87,99 +91,77 @@
 \newpage
 
 %----------------------------------------------------------------------------------------
-%	CURRICULUM VITAE
+%	RESUME
 %----------------------------------------------------------------------------------------
 
 \makecvtitle % Print the CV title
 
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
+%	SHOWCASE
 %----------------------------------------------------------------------------------------
-%\section{Computer skills}
-\section{Skills}
-%\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
-%\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
-%\cvitem{Advanced}{Computer Hardware and Support}
-\cvitem{Skills}{
-	\begin{itemize*}
-		\item Linux Systems Administration
-		\item Microsoft Active Directory
-		\item Request Tracker
-		\item FOG Imaging
-	\end{itemize*}}
-\cvitem{Operating Systems}{\textsc{Linux}:
-	\begin{itemize*}
-		\item Gentoo
-		\item CentOS/RHEL
-		\item Debain/Ubuntu
-	\end{itemize*}
-	\newline\textsc{Microsoft Windows}:
-	\begin{itemize*}
-		\item XP
-		\item 7
-		\item Server 2008R2
-		\item Server 2012
-	\end{itemize*}}
-\cvitem{Programming Languages}{
-	\begin{itemize*}
-		\item Perl
-		\item \textsc{java}
-		\item \textsc{python}
-		\item \LaTeXe
-		\item BaSH
-		\item JavaScript
-	\end{itemize*}}
 
+\begin{center}
+	\textbf{IT Support Specialist | Systems Administrator}\\
+\end{center}
+
+% URM
+This is a sample URM. To advance the goals and objectives of the IT department by utilizing... Improve organizational efficiencies and productivity through the use of S.o.t.A technologies. Dedicated, self-motivated Systems Administrator with over 5 years' experience in the IT industry. Experienced in both Microsoft Windows and Linux systems administration. Exceptional analytical capabilities, problem solving, and communications skills.
+
+% CORE COMPETENCIES
+\section{Core Competencies}
+\subsection{Technical Skills}
+\cvdoubleitem{Microsoft}{7,2008R2,2012}{Linux}{Gentoo,Red Hat, Debian}
+\cvitem{Programming Languages}{Perl, \textsc{java}, \textsc{python}, \LaTeXe, BaSH, JavaScript}
+\cvitem{Software}{Request Tracker (RT), Free Open Ghost (FOG), Microsoft AD, Google Apps for Education}
+\subsection{Customer Service}
+\subsection{Troubleshooting}
+\subsection{Project Planning}
+
+% DIFFERENTIATORS
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Profesional Experience}
 
 %\subsection{Vocational}
 %\cventry{from--to}{degree or job title}{institution or employer}{city}{grade}{description}
 
 % RCMCS Helpdesk Support
-\cventry{July 2013 -- June 2017, October 2012 -- June 2013}{Helpdesk Support Technician, Helpdesk Intern}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
-\begin{itemize}
-	\item \hl{Provided daily software and hardware support to 50 staff and 250 high school students}
-	\item \hl{Successfully installed Best Practical's Request Tracker web-based ticketing system for tracking and organizing trouble tickets and maintained for 4 years}
-	\item \hl{Maintained FOG (Free Open Ghost) server for automating computer installs and cut down imaging time per machine from >90 minutes to <15 minutes}
-\end{itemize}}
-% RCMCS Intern
-%\cventry{October 2012 -- June 2013}{Helpdesk Intern}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
-%\begin{itemize}
-%		\item \textsc{desc goes here}
-%\end{itemize}}
+\cventry{2012 -- 2017}{IT Support Technician}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
+	\textsc{pos. statement}
+	\begin{itemize}
+		\item Was solely responsible for onsite IT support for 50 staff and 250 students, including software installation and hardware repairs.
+		\item Successfully installed Best Practical's Request Tracker web-based ticketing system for tracking and organizing trouble tickets and maintained for 4 years.
+		\item Maintained FOG (Free Open Ghost) server for automating computer installs and cut down imaging time per machine from >90 minutes to <15 minutes.
+	\end{itemize}}
 
 % AMD Austin
-\cventry{June 2010 -- December 2010}{Compute-Grid Co-op Engineer}{\textsc{Advanced Micro Devices}}{Austin,TX}{}{
+\cventry{2010 -- 2010}{Compute-Grid Engineer, Intern}{\textsc{Advanced Micro Devices}}{Austin,TX}{}{
+	\textsc{pos. statement}
 	\begin{itemize}
-		\item \hl{Wrote script to gather server cluster statistics and analyze data for cluster health and efficiency. This was used to identify configuration problems and bottlenecks}
-		\item \hl{two}
-		\item \hl{three}
-\end{itemize}}
+		\item Wrote script to gather server cluster statistics and analyze data for cluster health and efficiency, and pushed to our data centers internationally. This was used to identify configuration problems and bottlenecks.
+		\item Successfully kept data center server uptime >90\%
+	\end{itemize}}
 
 % RIT CS Dept.
-\cventry{December 2008 -- November 2009}{Graduate Assistant}{\textsc{RIT},Computer Science Department}{Rochester,NY}{}{
+\cventry{2008 -- 2009}{Graduate Assistant, Part-Time}{\textsc{RIT},Computer Science Department}{Rochester,NY}{}{
+	\textsc{pos. statement}
 	\begin{itemize}
-		\item \hl{one}
-		\item \hl{two}
-		\item \hl{three}
-\end{itemize}}
+		\item Successfully installed requested software on multiple platforms, including Solaris, Linux, Windows, and OSX
+		\item Resolved trouble tickets in a timely manner.
+	\end{itemize}}
 
 % AMD Boxborough
-\cventry{2006--2007,2007--2007,2008--2008 }{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{
+\cventry{2006 -- 2008}{Site-Services Engineer,Intern}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{
+	\textsc{pos. statement}
 	\begin{itemize}
-		\item \hl{Part of 8 person team that provided daily dekstop and server support for \textasciitilde 300 person engineering site}
-		\item \hl{Planned and implemented computer monitor RMA process to facilitate expedient monitor replacement}
-		\item \hl{Worked weekly to keep cluster uptime >90\%}
-\end{itemize}}
-%\cventry{June 2008 -- December 2008}{Site-Services Co-op Engineer}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{}
-%\cventry{2007--2007}{Site-Services Co-op Engineer}{}{}{}{}
-%\cventry{2006--2007}{Site-Services Co-op Engineer}{}{}{}{description}
+		\item Part of 8 person team that provided daily dekstop and server support for \textasciitilde 300 person engineering site and data center with 2000+ servers.
+		\item Planned and implemented computer monitor RMA process with vendor to facilitate expedient monitor replacement
+		\item Helped to identify remote script that was negatively impacting onsite network and file server performance.
+	\end{itemize}}
 
 
 %----------------------------------------------------------------------------------------
@@ -188,9 +170,8 @@
 
 \section{Education}
 
-\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rocehster,NY}{Computer Science, BS/MS Dual Degree Program}{}  % Arguments not required can be left empty
-%\cventry{2005--2008}{Bachelor of Computer Science}{Rochester Institute of Technology}{Rochester,NY}{}{}
-\cventry{2003--2005}{A.S.}{Springfield Technical Community College}{Springfield,MA}{Engineering and Science Transfer}{}
+\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rochester,NY}{Computer Science, BS/MS Dual Degree Program}{}  % Arguments not required can be left empty
+\cventry{2005}{A.S.}{Springfield Technical Community College}{Springfield,MA}{Engineering and Science Transfer}{}
 
 
 %----------------------------------------------------------------------------------------
@@ -222,17 +203,21 @@
 %\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
 %\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
 
+\newpage
+
 %----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
+%	REFERENCE PORTFOLIO
 %----------------------------------------------------------------------------------------
 
-%\section{Interests}
+\section{Reference Portfolio}
+\renewcommand{\epigraphsize}{\large}
+\setlength{\epigraphwidth}{0.6\textwidth}
+\renewcommand{\epigraphflush}{center}
+\epigraph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{G.S.Morin}
 
-%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\epigraph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{G.S.Morin}
 
-%\cvlistdoubleitem{Piano}{Chess}
-%\cvlistdoubleitem{Cooking}{Dancing}
-%\cvlistitem{Running}
+\epigraph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{G.S.Morin}
 
 %----------------------------------------------------------------------------------------
 
