@@ -24,11 +24,11 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[12pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 %\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
@@ -40,6 +40,7 @@
 \usepackage{soul}
 
 \usepackage{epigraph}
+\usepackage{multicol}
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
@@ -63,6 +64,8 @@
 %\quote{"There are 10 types of people in the world: those who understand binary, those who don't, and those that don't realize this is a joke about ternary"}
 %\quote{"Have you tried turning it off and on again?"}
 
+\nopagenumbers
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -83,8 +86,9 @@
 
 \makelettertitle % Print letter title
 
-\lipsum[1-2] % Dummy text
-\lipsum[4] % Dummy text
+\lipsum[2] % Dummy text
+\lipsum[3] % Dummy text
+\lipsum[4]
 
 \makeletterclosing % Print letter signature
 
@@ -102,21 +106,26 @@
 %----------------------------------------------------------------------------------------
 
 \begin{center}
-	\textbf{IT Support Specialist | Systems Administrator}\\
+	\textbf{IT Support Specialist/Systems Administrator}\\
 \end{center}
-
 % URM
-This is a sample URM. To advance the goals and objectives of the IT department by utilizing... Improve organizational efficiencies and productivity through the use of S.o.t.A technologies. Dedicated, self-motivated Systems Administrator with over 5 years' experience in the IT industry. Experienced in both Microsoft Windows and Linux systems administration. Exceptional analytical capabilities, problem solving, and communications skills.
+\begin{center}
+	\textit{"Preventing fires before they happen, putting them out when they do"}\\
+\end{center}
+% Summary of Qualifications
+Detail-oriented IT Specialist with years of experience in troubleshooting technical problems and finding the best solution to a problem. Areas of expertise include computer/disk imaging, system configuration, and scripting/automation.
 
 % CORE COMPETENCIES
 \section{Core Competencies}
+
+\subsection{Professional Skills}
+\cvitem{Customer Service}{Outstanding experience, communication skills, and patience in understanding customer's needs, problems, and relaying solution.}
+\cvitem{Problem Solving}{Ability to diagnose, troubleshoot, and resolve issues, with an eye toward solutions that are generalized, long-term, and adaptable.}
+\cvitem{Time Management}{Experience in coordinating multiple tasks and projects, varying time frames and deadlines, and the ability to prioritize competing/conflicting problems.}
 \subsection{Technical Skills}
-\cvdoubleitem{Microsoft}{7,2008R2,2012}{Linux}{Gentoo,Red Hat, Debian}
-\cvitem{Programming Languages}{Perl, \textsc{java}, \textsc{python}, \LaTeXe, BaSH, JavaScript}
-\cvitem{Software}{Request Tracker (RT), Free Open Ghost (FOG), Microsoft AD, Google Apps for Education}
-\subsection{Customer Service}
-\subsection{Troubleshooting}
-\subsection{Project Planning}
+\cvdoubleitem{Microsoft}{XP, 7, Server 2008R2, Server 2012}{Linux}{Gentoo, Red Hat, Debian}
+\cvitem{Programming Languages}{Perl, \textsc{java}, \textsc{python}, C/C++, \LaTeXe, Bash script, JavaScript}
+\cvitem{Software}{Request Tracker/helpdesk ticketing, FOG/disk imaging, Microsoft AD, Google Apps for Education, MS Excel(Advanced), VMWare, Remote Desktop/ssh/telnet, Wireshark, nmap}
 
 % DIFFERENTIATORS
 
@@ -124,43 +133,46 @@ This is a sample URM. To advance the goals and objectives of the IT department b
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Profesional Experience}
+\section{Professional Experience}
 
 %\subsection{Vocational}
 %\cventry{from--to}{degree or job title}{institution or employer}{city}{grade}{description}
 
 % RCMCS Helpdesk Support
 \cventry{2012 -- 2017}{IT Support Technician}{Rochester Career Mentoring Charter School}{Rochester,NY}{}{
-	\textsc{pos. statement}
+	Sole onsite IT support for 300 staff and students at tech-based high school. Maintained hardware and software to ensure a quality educational environment.
 	\begin{itemize}
-		\item Was solely responsible for onsite IT support for 50 staff and 250 students, including software installation and hardware repairs.
-		\item Successfully installed Best Practical's Request Tracker web-based ticketing system for tracking and organizing trouble tickets and maintained for 4 years.
-		\item Maintained FOG (Free Open Ghost) server for automating computer installs and cut down imaging time per machine from >90 minutes to <15 minutes.
+		\item Successfully installed and configured a web-based trouble ticket system and trained staff in how to use it. Problem initial response time and time to resolution reduced.
+		\item Maintained and upgraded FOG server for automating computer installs. Reduced installation time per machine from >90 minutes to <15 minutes.
+		\item Diagnosed sitewide wireless performance issues and assisted in RFP process for new wireless infrastructure.
+		\item Managed remote servers hosting student management system. Scheduled regular downtimes to install upgrades, security updates, and patches. Uploaded data and media to SMS.
 	\end{itemize}}
 
 % AMD Austin
-\cventry{2010 -- 2010}{Compute-Grid Engineer, Intern}{\textsc{Advanced Micro Devices}}{Austin,TX}{}{
-	\textsc{pos. statement}
+\cventry{2010}{Compute-Grid Engineer, \textsc{Intern}}{Advanced Micro Devices}{Austin,TX}{}{
+	Assisted in maintenance, support, configuration, and growth of data center server clusters.
 	\begin{itemize}
 		\item Wrote script to gather server cluster statistics and analyze data for cluster health and efficiency, and pushed to our data centers internationally. This was used to identify configuration problems and bottlenecks.
-		\item Successfully kept data center server uptime >90\%
+		\item Worked with project engineers to diagnose job submission errors, incorrect hardware requirements, and ultimately provide correct command for job submission and completion.
+		\item Consistently worked to keep data center server uptime >95\% to maximize computing throughput for project deadlines.
 	\end{itemize}}
 
 % RIT CS Dept.
-\cventry{2008 -- 2009}{Graduate Assistant, Part-Time}{\textsc{RIT},Computer Science Department}{Rochester,NY}{}{
-	\textsc{pos. statement}
+\cventry{2008 -- 2009}{Graduate Assistant, \textsc{Part-Time}}{RIT,Computer Science Department}{Rochester,NY}{}{
+	Supported software and hardware for CS department faculty, staff, and students to guarantee successful classes, labs, and projects. Supported multiple operating systems including Solaris, Windows, OSX, and Linux. Part-time during the school year, full-time over the Summer.
 	\begin{itemize}
-		\item Successfully installed requested software on multiple platforms, including Solaris, Linux, Windows, and OSX
-		\item Resolved trouble tickets in a timely manner.
+		\item Assessed and determined feasibility of software install requests from faculty and students, suggested alternatives when not feasible, then completed installation.
+		\item Handled, responded, troubleshooted, and resolved daily user account issues.
+		\item Regularly collected and replaced storage backup tapes for vaulting.
 	\end{itemize}}
 
 % AMD Boxborough
-\cventry{2006 -- 2008}{Site-Services Engineer,Intern}{\textsc{Advanced Micro Devices}}{Boxborough,MA}{}{
-	\textsc{pos. statement}
+\cventry{2006 -- 2008}{Site-Services Engineer, \textsc{Intern}}{Advanced Micro Devices}{Boxborough,MA}{}{
+	As part of a team, succesfully provided software/hardware support for desktops and servers to ensure million dollar semi-conductor projects remained on schedule. These were three separate 6 month internships over a three year period.
 	\begin{itemize}
-		\item Part of 8 person team that provided daily dekstop and server support for \textasciitilde 300 person engineering site and data center with 2000+ servers.
-		\item Planned and implemented computer monitor RMA process with vendor to facilitate expedient monitor replacement
-		\item Helped to identify remote script that was negatively impacting onsite network and file server performance.
+		\item Successfully followed and updated hardware RMA process. Facilitated computer monitor replacement project.
+		\item Developed process and script to quickly diagnose tens to hundreds of problem servers, automatically fix those that could be, and print out a list of servers that needed individual diagnosis.
+		\item Assisted in identifying remote script that was severely impacting local network and file server performance.
 	\end{itemize}}
 
 
@@ -170,8 +182,11 @@ This is a sample URM. To advance the goals and objectives of the IT department b
 
 \section{Education}
 
-\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rochester,NY}{Computer Science, BS/MS Dual Degree Program}{}  % Arguments not required can be left empty
+%\cventry{2005--2010}{attended}{Rochester Institute of Technology}{Rochester,NY}{Computer Science, BS/MS Dual Degree Program}{}  % Arguments not required can be left empty
+%\cventry{2005--2010}{Courses taken in computer programming, networking, algorithms}{Rochester Institute of Technology}{Rochester,NY}{}{}
 \cventry{2005}{A.S.}{Springfield Technical Community College}{Springfield,MA}{Engineering and Science Transfer}{}
+\cventry{2005--2010}{Courses Taken:}{Rochester Institute of Technology}{Rochester, NY}{}{Computer programming, networking, algorithms, progamming languages, compilers}
+%\cvitem{Courses Taken - RIT}{}
 
 
 %----------------------------------------------------------------------------------------
@@ -211,9 +226,8 @@ This is a sample URM. To advance the goals and objectives of the IT department b
 
 \section{Reference Portfolio}
 \renewcommand{\epigraphsize}{\large}
-\setlength{\epigraphwidth}{0.6\textwidth}
+\setlength{\epigraphwidth}{0.7\textwidth}
 \renewcommand{\epigraphflush}{center}
-\epigraph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{G.S.Morin}
 
 \epigraph{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}{G.S.Morin}
 
